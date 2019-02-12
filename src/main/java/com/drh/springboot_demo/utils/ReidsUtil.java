@@ -60,7 +60,6 @@ public class ReidsUtil {
 
         try{
             if(key != null){
-
                 return redisTemplate.hasKey(key);
             }
         }catch (Exception e){
